@@ -8,8 +8,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Light;
-  color: txt;
 }
 /*---- Transition ----*/
 a,
@@ -37,19 +35,15 @@ i {
   z-index: 1;
 }
 /*:::::::::::: Header ::::::::::::::*/
-#header-base {
+header {
   position: relative;
   width: 100%;
-  z-index: 2;
-  background: neutral;
-  border-bottom: 2px solid gray3;
 }
 /*:::::::::::: Content ::::::::::::::*/
 #content {
   height: auto;
   position: relative;
   width: 100%;
-  z-index: 1;
 }
 /*:::::::::::: Fix ::::::::::::::*/
 .fix {
