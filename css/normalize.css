@@ -33,6 +33,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {border: 0;outline :
 .clear {display:block;}
 * html .clear {height:1px;}
 
+/*---- Iframe fix ---*/
+iframe::-webkit-scrollbar { width: 0 !important }
+iframe { -ms-overflow-style: none; }
+iframe { overflow: -moz-scrollbars-none; }
+
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
